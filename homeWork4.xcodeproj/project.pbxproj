@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F7109F5F1CF6144600861231 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7109F5E1CF6144600861231 /* main.m */; };
+		F7109F5F1CF6144600861231 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7109F5E1CF6144600861231 /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F7109F671CF6200500861231 /* Orange.m in Sources */ = {isa = PBXBuildFile; fileRef = F7109F661CF6200500861231 /* Orange.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		F7109F5B1CF6144600861231 /* homeWork4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = homeWork4; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7109F5E1CF6144600861231 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7109F651CF6200500861231 /* Orange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Orange.h; sourceTree = "<group>"; };
+		F7109F661CF6200500861231 /* Orange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Orange.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				F7109F5E1CF6144600861231 /* main.m */,
+				F7109F651CF6200500861231 /* Orange.h */,
+				F7109F661CF6200500861231 /* Orange.m */,
 			);
 			path = homeWork4;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7109F5F1CF6144600861231 /* main.m in Sources */,
+				F7109F671CF6200500861231 /* Orange.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
